@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(229, 185, 255), rgb(162, 212, 255));
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:40px;
+    color: rgb(154,78,235);
+    text-align: center;
+}
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(154,78,235);
+    text-align: center; 
+    margin: none ;
+}
+div{
+    font-size: 20px;
+    width:30vw ;
+   
+}
+hide-scroll::-webkit-scrollbar{
+    display:none;
+}
+hide-scroll{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+

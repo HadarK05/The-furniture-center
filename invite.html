@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+ p.double {border-style: double;}
+        label{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+       div{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+         hide-scroll::-webkit-scrollbar{
+        display:none;
+    }
+    hide-scroll{
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="hide-scroll" dir="rtl">
+    <h1 style="width:250px;margin: auto;color: rgb(154, 78, 235);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">פרטי הזמנה&nbsp;<img src="צילום מסך 2023-11-28 231025.png"></h1>
+   <form action="submit.html" submit.html style="width: 300px;margin:auto ; ">
+    <div>
+   <label><b>שם פרטי:</b></label><input type="text"/><br/><br/>
+   <label><b>שם משפחה:</b></label><input type="text"/><br/><br/>
+   <label><b>כתובת:</b></label><input type="text"/><br/><br/>
+   <label><b>קומה:</b></label><input type="number" min="1" max="40"/><br/><br/>
+   <label><b>האם יש בבנין מעלית</b>?</label><br/><br/><input name="rd" type="radio"/><b>יש מעלית</b><br/><br/>
+   <input name="rd" type="radio"/><b>אין מעלית</b><br/><br/>
+   <label><b>כתובת מייל:</b></label><input type="email" autocomplete="on"/><br/><br/>
+   <label><b>מספר טלפון:</b></label><input type="tel" pattern={3}-{7} placeholder="000-0000000"/><br/><br/>
+   <label><b>מספר טלפון נוסף:</b></label><input type="tel" pattern={3}-{7} placeholder="000-0000000"/><br/><br/>
+   <label><b>פרטי מוצר:</b><br/><br/></label>
+   <input name="rd" type="checkbox"/><b>מיטות</b><br/>&nbsp;
+    מס' מק"ט:<input type="text"><br/><br/>&nbsp;
+    מס' מק"ט:<input type="text"><br/><br/>&nbsp;
+    כמות:<input type="number" min="1" max="3"><br/><br/>
+     <input name="rd" type="checkbox"/><b>ספות</b> <br/>&nbsp;
+      מס' מק"ט:<input type="text"> <br/><br/>
+       <input name="rd" type="checkbox"/><b>שולחנות</b><br/>&nbsp;
+        מס' מק"ט:<input type="text"><br/><br/>&nbsp;
+        כמות הכסאות:<input type="number" min="6" max="12"><br/><br/>
+   <label><b>בחר אמצעי תשלום:</b></label><br/><br/><input name="rd" type="checkbox" /><b>מזומן</b><br/><br/>
+   <input name="rd" type="checkbox"/><b>אשראי</b><br/><br/>
+   <input name="rd" type="checkbox"/><b>צ'ק</b><br/><br/>
+   <label><b>שם בעל הכרטיס:</b></label><input type="text" /><br/><br/>
+   <label><b>מספר תעודת זהות:</b></label><input type="tel" pattern={9}/><br/><br/>
+   <label><b>מספר הכרטיס:</b></label><input type="tel" maxlength="16"/><br/><br/>
+   <label><b>תוקף:</b></label><input type="month" pattern={2}/><br/><br/>
+   <label><b>קוד אבטחה:</b></label><input type="tel" pattern={3}/><br/><br/>
+   <label><b>כמה תשלומים?</b></label><input type="number" min="1" max="12"/><br/><br/></div>
+  <p class="double" style="color: red;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 20px;"> לתשומת ליבכם:מחיר הובלה והרכבה בתוספת תשלום של 350  ₪</p>
+   <input type="submit" value="לשליחה"/>
+  
+   </form>
+</body>
+</html>
